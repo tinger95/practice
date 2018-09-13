@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gzhmaven:war">
+    <output-path>$PROJECT_DIR$/../gzhmaven/target</output-path>
+    <root id="archive" name="gzhmaven.war">
+      <element id="artifact" artifact-name="gzhmaven:war exploded" />
+    </root>
+  </artifact>
+</component>
