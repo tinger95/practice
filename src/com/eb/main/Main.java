@@ -10,6 +10,7 @@ public class Main {
         RedisClientTemplate redisClient = (RedisClientTemplate)ac.getBean("redisClientTemplate");
         redisClient.set("a", "abc");
         System.out.println(redisClient.get("a"));
+        redisClient.set("user","Lily");
     }
 
 }
