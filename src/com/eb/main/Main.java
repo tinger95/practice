@@ -12,5 +12,4 @@ public class Main {
         System.out.println(redisClient.get("a"));
         redisClient.set("user","Lily");
     }
-
 }
